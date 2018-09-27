@@ -1,0 +1,13 @@
+.top-header--transparent {
+  background-color: transparent;
+}
+
+.profile .profile__header {
+  height: 80vh; /*view for height, 80% of screen*/
+  background-color: red;
+  width: 100%;
+  position: relative;
+  top: -60px; /*디폴트 본문 패딩 60이어서 상쇄하는 역할*/
+  display: flex;
+  justify-content: center;
+}
